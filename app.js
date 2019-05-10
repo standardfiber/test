@@ -14,6 +14,14 @@ let data = [
     model: 'Optiplex 390',
     os: 'Windows 7',
     ver: '6.1.7601'
+  },
+  {
+    type: 'laptop',
+    user: 'Tim Cook',
+    make: 'Apple',
+    model: 'MacBook Pro',
+    os: 'macOS',
+    ver: 'Mojave'
   }
 ];
 
