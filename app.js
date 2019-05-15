@@ -10,6 +10,8 @@
 
 // console.log(outer());
 
+// Comment
+
 let a = 100;
 let hello;
 
