@@ -1,11 +1,22 @@
-function a() {
-  var x = 'x';
+// function outer() {
+//   var b = 10;
 
-  function b() {
-    var y = 'y';
-    return x + y;
-  }
-  return b();
+//   function inner() {
+//     var a = 20;
+//     return a + b;
+//   }
+//   return inner();
+// }
+
+// console.log(outer());
+
+let a = 100;
+let hello;
+
+function b() {
+  hello = 'Hello';
+  return a;
 }
 
-console.log(a());
+console.log(b());
+console.log(hello);
