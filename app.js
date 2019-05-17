@@ -1,24 +1,15 @@
-// function outer() {
-//   var b = 10;
-
-//   function inner() {
-//     var a = 20;
-//     return a + b;
-//   }
-//   return inner();
+// function nextInLine(arr, item) {
+//   return item;
 // }
 
-// console.log(outer());
-
-// Comment
-
-let a = 100;
-let hello;
-
-function b() {
-  hello = 'Hello';
-  return a;
+function nextInLine(arr, item) {
+  // Your code here
+  arr.push(item);
+  return arr.shift(); // Change this line
 }
 
-console.log(b());
-console.log(hello);
+var testArr = [1, 2, 3, 4, 5];
+
+console.log('Before: ' + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log('After: ' + JSON.stringify(testArr));
